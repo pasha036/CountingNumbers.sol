@@ -1,0 +1,17 @@
+//SPDX-License-Identifier:MIT
+
+pragma solidity ^0.7.0;
+
+contract Counter{
+uint public count;
+function incr() external {
+   count  += 1;
+
+
+}
+
+function decr() external {
+   count  -= 1;
+
+}
+}
